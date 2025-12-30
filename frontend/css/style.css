@@ -1,0 +1,122 @@
+/* General */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background:orchid;
+  color: #333;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: linear-gradient(90deg, #ff7e5f, #feb47b);
+  color: white;
+}
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+.auth-buttons .btn {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #ff7e5f;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.auth-buttons .btn:hover {
+  background-color: #ffd1b3;
+}
+
+/* Hero Section */
+.hero {
+  height: calc(100vh - 80px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+  text-align: center;
+}
+.hero h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.hero-btn {
+  background: #ff7e5f;
+  color:blue;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-size: 18px;
+}
+.hero-btn:hover {
+  background:blue ;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #333;
+  color:purple;
+}
+
+/* Product Cards (for products.html) */
+.product-card {
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 30px;
+  display: inline-block;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+.product-card img {
+  border-radius: 30px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.btn {
+  background: red;
+  color: black;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.btn:hover {
+  background: #feb47b;
+}
+
+/* Login Page */
+.login-container {
+  max-width: 350px;
+  margin: 100px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.login-container input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}

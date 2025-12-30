@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NovaMart | Cart</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <h1 class="logo">NovaMart</h1>
+  <a href="products.html" class="cart-link">← Back to Products</a>
+</header>
+
+<h2 class="page-title">Shopping Cart</h2>
+
+<div id="cart-items" class="cart-container"></div>
+
+<h3 class="total">
+  Total Amount: ₹<span id="total-price">0</span>
+</h3>
+
+<div class="cart-actions">
+  <button onclick="placeOrder()" class="order-btn">
+    Place Order
+  </button>
+</div>
+
+<script src="js/cart.js"></script>
+</body>
+</html>

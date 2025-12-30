@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NovaMart | Products</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <h1 class="logo">NovaMart</h1>
+  <a href="cart.html" class="cart-link">🛒 Cart</a>
+</header>
+
+<h2 class="page-title">Our Products</h2>
+
+<div class="products">
+
+  <!-- ===== EXISTING 10 PRODUCTS ===== -->
+
+  <div class="product-card">
+    <img src="images/Wireless-Headphones.jpeg">
+    <h3>Wireless Headphones</h3>
+    <p class="price">₹2499</p>
+    <button onclick="addToCart(1,'Wireless Headphones',2499,'images/Wireless-Headphones.jpeg')">Add to Cart</button>
+  </div>
+
+  <div class="product-card">
+    <img src="images/Smart-Watch.jpeg">
+    <h3>Smart Watch</h3>
+    <p class="price">₹3999</p>
+    <button onclick="addToCart(2,'Smart Watch',3999,'images/Smart-Watch.jpeg')">Add to Cart</button>
+  </div>
+
+  <div class="product-card">
+    <img src="images/Bluetooth-Speaker.jpeg">
+    <h3>Bluetooth Speaker</h3>
+    <p class="price">₹1999</p>
+    <button onclick="addToCart(3,'Bluetooth Speaker',1999,'images/Bluetooth-Speaker.jpeg')">Add to Cart</button>
+  </div>
+
+  <div class="product-card">
+    <img src="images/Gaming-Mouse.jpeg">
+    <h3>Gaming Mouse</h3>
+    <p class="price">₹1499</p>
+    <button onclick="addToCart(4,'Gaming Mouse',1499,'images/Gaming-Mouse.jpeg')">Add to Cart</button>
+  </div>
+
+  <div class="product-card">
+    <img src="images/Laptop-Bag.jpeg">
+    <h3>Laptop Bag</h3>
+    <p class="price">₹1299</p>
+    <button onclick="addToCart(5,'Laptop Bag',1299,'images/Laptop-Bag.jpeg')">Add to Cart</button>
+  </div>
+
+  <div class="product-card">
+    <img src="images/USB-Keyboard.jpeg">
+    <h3>USB Keyboard</h3>
+    <p class="price">₹999</p>
+    <button onclick="addToCart(6,'USB Keyboard',999,'images/USB-Keyboard.jpeg')">Add to Cart</button>
+  </div>
+
+  <div class="product-card">
+    <img src="images/Mobile-Stand.jpeg">
+    <h3>Mobile Stand</h3>
+    <p class="price">₹499</p>
+    <button onclick="addToCart(7,'Mobile Stand',499,'images/Mobile-Stand.jpeg')">Add to Cart</button>
+  </div>
+
+  <div class="product-card">
+    <img src="images/Power-Bank.jpeg">
+    <h3>Power Bank</h3>
+    <p class="price">₹1799</p>
+    <button onclick="addToCart(8,'Power Bank',1799,'images/Power-Bank.jpeg')">Add to Cart</button>
+  </div>
+
+  <div class="product-card">
+    <img src="images/Wireless-Mouse.jpeg">
+    <h3>Wireless Mouse</h3>
+    <p class="price">₹899</p>
+    <button onclick="addToCart(9,'Wireless Mouse',899,'images/Wireless-Mouse.jpeg')">Add to Cart</button>
+  </div>
+
+  <div class="product-card">
+    <img src="images/Web-Camera.jpeg">
+    <h3>Web Camera</h3>
+    <p class="price">₹2299</p>
+    <button onclick="addToCart(10,'Web Camera',2299,'images/Web-Camera.jpeg')">Add to Cart</button>
+  </div>
+
+  <!-- ===== NEW 10 PRODUCTS ===== -->
+
+  <div class="product-card">
+    <img src="images/Tablet.jpeg">
+    <h3>Tablet</h3>
+    <p class="price">₹15999</p>
+    <button onclick="addToCart(11,'Tablet',15999,'images/Tablet.jpeg')">Add to Cart</button>
+  </div>
+
+  <div class="product-card">
+    <img src="images/Smartphone.jpeg">
+    <h3>Smartphone</h3>
+    <p class="price">₹24999</p>
+    <button onclick="addToCart(12,'Smartphone',24999,'images/Smartphone.jpeg')">Add to Cart</button>
+  </div>
+
+  <div class="product-card">
+    <img src="images/Earbuds.jpeg">
+    <h3>Wireless Earbuds</h3>
+    <p class="price">₹2999</p>
+    <button onclick="addToCart(13,'Wireless Earbuds',2999,'images/Earbuds.jpeg')">Add to Cart</button>
+  </div>
+
+  <div class="product-card">
+    <img src="images/Monitor.jpeg">
+    <h3>LED Monitor</h3>
+    <p class="price">₹10999</p>
+    <button onclick="addToCart(14,'LED Monitor',10999,'images/Monitor.jpeg')">Add to Cart</button>
+  </div>
+
+  <div class="product-card">
+    <img src="images/Printer.jpeg">
+    <h3>Printer</h3>
+    <p class="price">₹8999</p>
+    <button onclick="addToCart(15,'Printer',8999,'images/Printer.jpeg')">Add to Cart</button>
+  </div>
+
+  <div class="product-card">
+    <img src="images/Router.jpeg">
+    <h3>WiFi Router</h3>
+    <p class="price">₹1999</p>
+    <button onclick="addToCart(16,'WiFi Router',1999,'images/Router.jpeg')">Add to Cart</button>
+  </div>
+
+  <div class="product-card">
+    <img src="images/Hard-Disk.jpeg">
+    <h3>External Hard Disk</h3>
+    <p class="price">₹5499</p>
+    <button onclick="addToCart(17,'External Hard Disk',5499,'images/Hard-Disk.jpeg')">Add to Cart</button>
+  </div>
+
+  <div class="product-card">
+    <img src="images/Pen-Drive.jpeg">
+    <h3>Pen Drive</h3>
+    <p class="price">₹699</p>
+    <button onclick="addToCart(18,'Pen Drive',699,'images/Pen-Drive.jpeg')">Add to Cart</button>
+  </div>
+
+  <div class="product-card">
+    <img src="images/Headset.jpeg">
+    <h3>Gaming Headset</h3>
+    <p class="price">₹3499</p>
+    <button onclick="addToCart(19,'Gaming Headset',3499,'images/Headset.jpeg')">Add to Cart</button>
+  </div>
+
+  <div class="product-card">
+    <img src="images/Camera.jpeg">
+    <h3>Digital Camera</h3>
+    <p class="price">₹18999</p>
+    <button onclick="addToCart(20,'Digital Camera',18999,'images/Camera.jpeg')">Add to Cart</button>
+  </div>
+
+</div>
+
+<script src="js/cart.js"></script>
+</body>
+</html>
