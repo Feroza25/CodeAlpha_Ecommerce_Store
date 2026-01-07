@@ -1,18 +1,18 @@
 # 🛒 CodeAlpha Ecommerce Store
 
-A full-stack e-commerce web application developed as part of the **CodeAlpha Full Stack Development Internship**.  
-This project allows users to browse products, manage a shopping cart, and place orders through a secure and user-friendly interface.
+A full-stack e-commerce web application built as part of the **CodeAlpha Full Stack Development Internship**.  
+This project allows users to browse products, manage a shopping cart, and place orders securely.
 
 ---
 
 ## 🚀 Features
 
-- User registration and authentication
-- Product listing with detailed product pages
+- User registration and login
+- Product listing and product detail pages
 - Add to cart and cart management
-- Order placement and processing
+- Order placement and order management
 - Backend API with database integration
-- Responsive and clean UI
+- Simple and responsive user interface
 
 ---
 
@@ -31,5 +31,8 @@ This project allows users to browse products, manage a shopping cart, and place 
 
 ---
 
-## 📂 Project Structure
+## ⚙️ How to Run the Project
 
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/Feroza25/CodeAlpha_Ecommerce_Store.git
